@@ -1,4 +1,4 @@
--- Generate a list of hotels based on location.
+-- Generate a list of hotels grouped based on location.
 SELECT 
 	hotel_name, 
     location
@@ -13,7 +13,7 @@ FROM traveler_trips
 JOIN hotels ON hotels.location = traveler_trips.destination
 GROUP BY traveler_trips.destination;
 
--- Which locations do not have hotels featured on the 2022 World's Best Hotel list?
+-- Which locations do not have a hotel featured on the 2022 World's Best Hotel list?
 SELECT 
 	destination 
 FROM traveler_trips
@@ -21,7 +21,7 @@ LEFT JOIN hotels ON hotels.location = traveler_trips.destination
 WHERE
    hotels.hotel_name IS NULL;
 
--- People from what nationalities tend to take the longest vacations? 
+-- People of what nationality tend to take the longest vacations? 
 SELECT
 	traveler_nationality,
     AVG(duration) as avg_trip_duration
