@@ -16,11 +16,11 @@ Wandr's research team strives to deliver top-notch travel recommendations by lev
  1. Who had the longest stay? Which top hotel could that person have stayed at?
  1. Rank destinations from most expensive to cheapest average trip cost. What was the total amount spent on trips to each destination?
 ## Key Topics
- *String Functions
- *Aggregate Functions
- *JOINS
- *Comparison & Logical Operators
- *Window Functions
+ * String Functions
+ * Aggregate Functions
+ * JOINS
+ * Comparison & Logical Operators
+ * Window Functions
 ## Datasets
  *https://www.kaggle.com/datasets/narmelan/travelleisure-worlds-best-hotels-2022
  *https://www.kaggle.com/datasets/rkiattisak/traveler-trip-data
